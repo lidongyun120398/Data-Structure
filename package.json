@@ -1,0 +1,14 @@
+{
+  "name": "dctest",
+  "version": "1.0.0",
+  "description": "数据结构测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hy-algokit": "^1.4.0"
+  }
+}
