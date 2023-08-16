@@ -92,6 +92,7 @@ class linkedList<T> implements ILink<T> {
             this.head = this.head!.next
         }else{
             const previous = this.getNode(position - 1)
+            current = previous!.next
             previous!.next = previous?.next?.next ?? null
         }
         this.length--

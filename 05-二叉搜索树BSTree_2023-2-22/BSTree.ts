@@ -75,9 +75,9 @@ class BSTree<T> {
     //中序遍历:先左后根再右
     private inOrderTraverseNode(node:treeNode<T> | null){
         if(node){
-            this.inOrderTraverseNode(node)
+            this.inOrderTraverseNode(node.left)
             console.log(node.value)
-            this.inOrderTraverseNode(node)
+            this.inOrderTraverseNode(node.right)
         }
     }   
     inOrderTraverse(){
